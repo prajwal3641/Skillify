@@ -1,0 +1,9 @@
+package com.infosys.repository;
+
+import com.infosys.model.Wishmaker;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface WishmakerRepository extends JpaRepository<Wishmaker, Long> {
+}
